@@ -1,5 +1,9 @@
 class ConfigController < ApplicationController
+  def notconfig
+    render text: "notconfig"
+  end
+
   def config
-    render text: :ok
+    render text: "config"
   end
 end
